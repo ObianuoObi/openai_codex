@@ -48,7 +48,7 @@ function generateUniqueId  () { // current time and date are used to generat uni
 
 }
 
-function chatStripe (isAi, value,uniqueId) {
+function chatStripe (isAi, value,uniqueId) { // this function will be used to generate a new chat stripe
   return `
   <div class="wrapper ${isAi ? 'ai' : ''}">
     <div class="chat">
