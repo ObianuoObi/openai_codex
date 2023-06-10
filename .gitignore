@@ -1,12 +1,2 @@
-# Ignore node_modules directory
-node_modules/
-
-# Ignore build output
-dist/
-
-# Ignore IDE files
-.vscode/
-
-# Ignore IDE files
-.env/
-
+.env
+node_modules
