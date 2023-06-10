@@ -89,7 +89,7 @@ const handleSubmit = async (event) => {
 
   // fetch data from server
 
-  const response = await fetch('http://localhost:5000', {
+  const response = await fetch('https://codex-a7xu.onrender.com', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
